@@ -1,0 +1,79 @@
+body{
+    height: 95vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.of{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+    width: 30vw;
+    background:whitesmoke;
+    border: none;
+    border-radius: 10%;
+    padding: 25px 50px ;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+.a{
+    background-color: whitesmoke;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.Sren;
+    font-weight: bold;
+    border: none;
+    height: 4vh;
+    width: 17vw;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+.b{
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.Sren;
+    font-weight: bold;
+    border: none;
+    height: 4vh;
+    width: 4vw;
+}
+input:focus {
+    outline: none;
+}
+.r{
+    border-radius: 20px 20px 20px 20px;
+    height: 5vh;
+    width: 17vw;
+    border:none;
+    border: 1px solid #7e05bf;
+}
+.r:hover{
+    background-color: grey;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+}
